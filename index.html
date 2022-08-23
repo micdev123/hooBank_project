@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>HooBank Landing Page</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header"
+        <!-- Navbar -->
+        <nav class="relative w-[88%] mx-auto py-4 md:w-[85%]">
+            <!-- Flex container -->
+            <div class="flex flex-row items-end justify-between">
+                <!-- Logo -->
+                <div class="pt-2">
+                    <img src="./img/logo.svg" alt="HooBankLogo" class="w-[124px] h-[32px]">
+                </div>
+                <!-- Menu Items -->
+                <div class="hidden space-x-6 md:flex">
+                    <a href="#" class="text-textWhite hover:text-hoverText">Home</a>
+                    <a href="#" class="text-textWhite hover:text-hoverText">About Us</a>
+                    <a href="#" class="text-textWhite hover:text-hoverText">Features</a>
+                    <a href="#" class="text-textWhite hover:text-hoverText">Solution</a>
+                </div>
+
+                <!-- Hamburger Icon -->
+                
+                <img src="./img/menu.svg" id="menu-btn" class="w-[1.4rem] md:hidden cursor-pointer" alt="">
+                <div id="menu"
+                    class="absolute flex flex-col items-center hidden py-8 mt-10 space-y-6 bg-white top-6 left-0 right-0 drop-shadow-md">
+                    <a href="#" class="font-medium hover:text-hoverText">Home</a>
+                    <a href="#" class="font-medium hover:text-hoverText">About Us</a>
+                    <a href="#" class="font-medium hover:text-hoverText">Features</a>
+                    <a href="#" class="font-medium hover:text-hoverText">Solution</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <!-- Flex Container -->
+            <div class="w-[100%] flex flex-col items-center px-0 mx-auto mt-10 space-y-0 md:flex-row md:items-start md:space-y-0 md:pl-[6.5rem]">
+                <!-- Text Left -->
+                <div class="flex flex-col mb-32 space-y-6 md:w-1/2">
+                    <div class="flex flex-row items-center justify-center w-[88%] mx-auto bg-gradient-to-r from-bgDiscountFrom to-bgDiscountTo p-[2px] rounded-[10px] md:w-[18rem] md:mx-0">
+                        <img src="./img/Discount.svg" alt="discount" class="w-[32px] h-[32px]">
+                        <p class="ml-2 uppercase text-slate-400 text-xs font-medium">
+                            <span class="text-textWhite">20%</span> Discount for
+                            <span class="text-textWhite">1 Month</span> Account
+                        </p>
+                    </div>
+                    <div class="flex flex-row justify-between items-center">
+                        <h1 class="max-w-md text-4xl font-bold text-center text-textWhite md:text-5xl md:text-left">
+                            The Next
+                            <span class="bg-clip-text text-transparent bg-gradient-to-r from-textColorFrom to-textColorTo ss:leading-[100.8px] leading-[75px]">Generation</span>
+                            <span>Payment Method</span>
+                        </h1>
+                    </div>
+                    <!-- Paragraph -->
+                    <p class="max-w-[20rem] m-0 mx-auto text-center text-slate-400 md:text-left md:mx-0">
+                        Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. we examine annual percentage rates annual fees.
+                    </p>
+                    <!-- CTA Button -->
+                    <div class="flex justify-center md:justify-start">
+                        <a href="#" class="flex flex-row px-6 py-[8px] text-black rounded-[5px] bg-gradient-to-t from-textColorFrom to-textColorTo text-sm font-semibold">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="md:w-1/2 relative">
+                    <img src="./img/robot.png" class="relative z-[5]" alt="">
+                    <div class="absolute z-[3] w-[50%] h-[65%] top-[5rem] right-[5.2rem] pink__gradient md:right-[9rem]" />
+                    <div class="absolute z-[1] w-[50%] h-[50%] rounded-full white__gradient bottom-40" />
+                    <div class="absolute z-[0] w-[50%] h-[60%] right-0 bottom-20 blue__gradient" />
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Proof Stats -->
+    <section id="proof" class="mt-16 mb-20">
+        <!-- Flex container -->
+        <div class="w-[85%] mx-auto flex flex-wrap items-center justify-between text-textWhite md:justify-between">
+            <div class="stats mb-6 md:mb-0">
+                <h4 class="text-3xl font-bold leading-[43.16px]">
+                    3800 
+                </h4>
+                <p class="text-textWhite text-[1.5rem] font-bold">+</p>
+                <p class="bg-clip-text text-transparent bg-gradient-to-r from-textColorFrom to-textColorTo text-[0.9rem] font-semibold uppercase span space-y-0">
+                    User Active
+                </p>
+            </div>
+            <div class="hidden text-slate-400 md:block">|</div>
+            <div class="stats mb-6 md:mb-0">
+                <h4 class="text-3xl font-bold">
+                    230 
+                </h4>
+                <p class="text-textWhite text-[1.5rem] font-bold">+</p>
+                <p class="bg-clip-text text-transparent bg-gradient-to-r from-textColorFrom to-textColorTo text-[0.9rem] font-semibold uppercase span">
+                    Trusted By Company
+                </p>
+            </div>
+            <div class="hidden text-slate-400 md:block">|</div>
+            <div class="stats">
+                <h4 class="text-3xl font-bold">
+                    $230M 
+                </h4>
+                <p class="text-textWhite text-[1.5rem] font-bold">+</p>
+                <p class="bg-clip-text text-transparent bg-gradient-to-r from-textColorFrom to-textColorTo text-[0.9rem] font-semibold uppercase span">
+                    Transaction
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured & Business -->
+    <section id="business">
+        <div class="w-[85%] mx-auto flex flex-col items-start justify-between space-y-6 my-14 mb-[2rem] md:space-y-0 md:flex-row md:mt-[10rem]">
+            <!-- Left Side -->
+            <div class="space-y-6 md:w-[70%]">
+                <h2 class='text-textWhite text-3xl font-semibold leading-[50.8px] max-w-md md:text-4xl'>
+                    You do the business, <br className="sm:block hidden" /> we’ll handle
+                    the money.
+                </h2>
+                <p class="text-slate-400 max-w-[460px]">
+                    With the right credit card, you can improve your financial life by
+                    building credit, earning rewards and saving money. But with hundreds
+                    of credit cards on the market.
+                </p>
+                <!-- CTA Button -->
+                <div class="flex">
+                    <a href="#"
+                        class="flex flex-row px-6 py-[8px] text-black rounded-[5px] bg-gradient-to-t from-textColorFrom to-textColorTo text-sm font-semibold">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <!-- Right Side -->
+            <div class="space-y-2">
+                <div class="flex items-center py-4 md:p-4 md:hover:bg-gradient-to-tr from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
+                    <div class="rounded-[50%] w-[5rem] h-[2.4rem] md:w-[3.5rem] md:h-[2.8rem] bg-dimBlue flex items-center justify-center mr-5">
+                        <img src="./img/Star.svg" class="w-[45%] h-[45%] object-contain" alt="">
+                    </div>
+                    <div>
+                        <h2 class='text-textWhite text-base font-semibold w-full'>Rewards</h2>
+                        <p class="text-slate-400 text-[0.9rem]">The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+                    </div>
+                </div>
+                <div class="flex items-center py-4 md:p-4 md:hover:bg-gradient-to-tr from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
+                    <div class="rounded-[50%] w-[5rem] h-[2.4rem] md:w-[3.5rem] md:h-[2.8rem] bg-dimBlue flex items-center justify-center mr-5">
+                        <img src="./img/Shield.svg" class="w-[45%] h-[45%] object-contain" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class='text-textWhite text-base font-semibold w-full'>100% Secured</h2>
+                        <p class="text-slate-400">We take proactive steps make sure your information and transactions are secure</p>
+                    </div>
+                </div>
+                <div class="flex items-center py-4 md:p-4 md:hover:bg-gradient-to-tr from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
+                    <div class="rounded-[50%] w-[5rem] h-[2.4rem] md:w-[3.5rem] md:h-[2.8rem] bg-dimBlue flex items-center justify-center mr-5">
+                        <img src="./img/Send.svg" class="w-[45%] h-[45%] object-contain" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class='text-textWhite text-base font-semibold w-full'>Balance Transfer</h2>
+                        <p class="text-slate-400">A balance transfer credit card can save you a lot of money in interest charges</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Billing -->
+    <section id="billing">
+        <div class="w-[85%] mx-auto my-16 flex items-center justify-between flex-col-reverse space-y-6 md:space-y-0 md:flex-row">
+            <div class="space-y-6 md:w-[60%]">
+                <img src="./img/bill.png" class="w-[30rem] h-[100%]-mt-14" alt="">
+            </div>
+            <div class="pb-12 space-y-6 md:w-1/2 md:pb-0">
+                <h2 class="text-textWhite text-3xl font-semibold leading-[50.8px] md:text-4xl">
+                    Easily control your billing & invoicing
+                </h2>
+                <p class="text-slate-400 text-[0.9rem]">Commodo laboris nisi elit sunt magna. Exercitation amet aute ipsum dolor fugiat esse ad. Esse esse ipsum nisi pariatur deserunt enim eu occaecat consectetur sit incididunt. Laboris irure ad in incididunt cupidatat irure magna incididunt enim qui..</p>
+                <div class="flex justify-between md:justify-start">
+                    <img src="./img/apple.svg" class="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" alt="">
+                    <img src="./img/google.svg" class="w-[128.86px] h-[42.05px] object-contain cursor-pointer" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card Deal -->
+    <section id="deal">
+        <div class="w-[85%] mx-auto flex flex-col md:flex-row items-center space-y-6 my-14">
+            <!-- Left Side -->
+            <div class="pb-12 space-y-6 md:w-[60%] md:pb-0">
+                <h2 class='text-textWhite text-3xl font-semibold leading-[50.8px] max-w-md md:text-4xl'>
+                    Find a better card deal in few easy steps
+                </h2>
+                <p class="text-slate-400 max-w-[460px]"> 
+                    Mollit consequat nostrud dolor officia quis excepteur qui veniam voluptate irure labore aliquip minim. Veniam et reprehenderit adipisicing laborum non quis pariatur sint ut consequat in.
+
+                </p>
+                <!-- CTA Button -->
+                <div class="flex">
+                    <a href="#"
+                        class="flex flex-row px-6 py-[8px] text-black rounded-[5px] bg-gradient-to-t from-textColorFrom to-textColorTo text-sm font-semibold">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <!-- Right Side -->
+            <div class="md:w-1/2">
+                <img src="./img/card.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="w-[85%] mx-auto my-14 space-y-8">
+            <div class="flex flex-col items-start justify-between space-y-6 md:flex-row md:space-y-0">
+                <h2 class='text-textWhite text-3xl font-semibold leading-[40.8px] max-w-md md:text-4xl md:w-[70%] md:leading-[50.8px]'>
+                    What people are saying about us
+                </h2>
+                <p class="text-slate-400 md:max-w-[45%]">
+                    Everything you need to accepts card payments and grow your business anywhere on the planet.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 gap-y-12 pt-[2rem] md:grid-cols-3 md:gap-16">
+                <div class="md:p-6 md:hover:bg-gradient-to-b from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
+                    <img src="./img/quotes.svg" class="w-[30px] h-[27.6px] object-contain" alt="">
+                    <p class="text-textWhite my-8 text-[0.9rem]">
+                        Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+                    </p>
+                    <div class="flex">
+                        <img src="./img/people01.png" class="w-[48px] h-[48px] rounded-full" alt="">
+                        <div class="ml-[10px]">
+                            <h2 class="text-textWhite text-[0.9rem]">Herman Jensen</h2>
+                            <p class="text-slate-400 text-[0.8rem]">Founder & Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:p-6 md:hover:bg-gradient-to-b from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
+                    <img src="./img/quotes.svg" class="w-[30px] h-[27.6px] object-contain" alt="">
+                    <p class="text-textWhite my-8 text-[0.9rem] md:mb-[3.2rem]">
+                        Money makes your life easier. If you're lucky to have it, you're lucky
+                    </p>
+                    <div class="flex">
+                        <img src="./img/people02.png" class="w-[48px] h-[48px] rounded-full" alt="">
+                        <div class="ml-[10px]">
+                            <h2 class="text-textWhite text-[0.9rem]">Steve Mark</h2>
+                            <p class="text-slate-400 text-[0.8rem]">Founder & Leader</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:p-6 md:hover:bg-gradient-to-b from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
+                    <img src="./img/quotes.svg" class="w-[30px] h-[27.6px] object-contain" alt="">
+                    <p class="text-textWhite my-8 text-[0.9rem]">
+                        It is usually people in the money business, finance, and international trade that are really rich.
+                    </p>
+                    <div class="flex items-center">
+                        <img src="./img/people03.png" class="w-[48px] h-[48px] rounded-full" alt="">
+                        <div class="ml-[10px]">
+                            <h2 class="text-textWhite text-[0.9rem]">Kenn Gallagher</h2>
+                            <p class="text-slate-400 text-[0.8rem]">Founder & Leader</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="clients">
+        <div class="w-[85%] mx-auto my-16 grid grid-cols-2 gap-8 items-center md:grid-cols-4 md:gap-16">
+            <div class="w-[10rem] md:w-[12rem]">
+                <img src="./img/airbnb.png" class="w-[8rem] h-[5rem] object-contain md:w-[11rem]" alt="">
+            </div>
+            <div class="w-[10rem] md:w-[12rem]">
+                <img src="./img/binance.png" class="w-[9rem] h-[5rem] object-contain md:w-[12rem]" alt="">
+            </div>
+            <div class="w-[10rem] md:w-[12rem]">
+                <img src="./img/coinbase.png" class="w-[8rem] h-[5rem] object-contain md:w-[10rem] md:h-[2rem]" alt="">
+            </div>
+            <div class="w-[10rem] md:w-[12rem]">
+                <img src="./img/dropbox.png" class="w-[9rem] h-[5rem] object-contain md:w-[11rem]" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="w-[85%] mx-auto my-14 p-6 bg-gradient-to-bl from-hoverBgFrom to-hoverBgTo rounded-[20px] md:p-12">
+            <div class="flex flex-col items-start justify-between space-y-6 md:flex-row md:items-center md:space-y-0">
+                <div class="space-y-6">
+                    <h2 class="text-textWhite text-3xl font-semibold max-w-md md:text-4xl">
+                        Let's try our service now!
+                    </h2>
+                    <p class="text-textWhite text-[0.9rem] md:max-w-[55%]">
+                        Everything you need to accepts card payments and grow your business anywhere on the planet.
+                    </p>
+                </div>
+                <!-- CTA Button -->
+                <div class="flex">
+                    <a href="#"
+                        class="flex flex-row px-6 py-[8px] text-black rounded-[5px] bg-gradient-to-t from-textColorFrom to-textColorTo text-sm font-semibold">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-footer w-full pt-12 pb-4">
+        <div class="w-[85%] mx-auto">
+            <div class="flex flex-col justify-between space-y-6 md:space-y-0 md:flex-row">
+                <div class="space-y-6">
+                    <img src="./img/logo.svg" alt="HooBankLogo" class="w-[11rem] h-[52px]">
+                    <p class="text-textWhite md:max-w-[82%]">
+                        A new way to make the payments easy, reliable and secure.
+                    </p>
+                </div>
+                <!-- Useful Links -->
+                <div>
+                    <h2 class="text-textWhite mb-[10px] text-[1rem] font-bold">Useful Links</h2>
+                    <div class="text-slate-400">
+                        <p class="text-[0.9rem]">Content</p>
+                        <p class="text-[0.9rem]">How it Works</p>
+                        <p class="text-[0.9rem]">Create</p>
+                        <p class="text-[0.9rem]">Explore</p>
+                        <p class="text-[0.9rem]">Terms & Services</p>
+                    </div>
+                </div>
+                <!-- Community -->
+                <div>
+                    <h2 class="text-textWhite mb-[10px] text-[1rem] font-bold">Community</h2>
+                    <div class="text-slate-400">
+                        <p class="text-[0.9rem]">Help Center</p>
+                        <p class="text-[0.9rem]">Partners</p>
+                        <p class="text-[0.9rem]">Suggestions</p>
+                        <p class="text-[0.9rem]">Blog</p>
+                        <p class="text-[0.9rem]">Newsletters</p>
+                    </div>
+                </div>
+                <!-- Partner -->
+                <div>
+                    <h2 class="text-textWhite mb-[10px] text-[1rem] font-bold">Partner</h2>
+                    <div class="text-slate-400">
+                        <p class="text-[0.9rem]">Our Partner</p>
+                        <p class="text-[0.9rem]">Become a Partners</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col justify-between border-t-[2px] border-solid border-gray-800 mt-[2rem] pt-[1rem] space-y-4 md:flex-row md:space-y-0">
+                <p class="text-textWhite text-[0.9rem]">copyrights&copy; Mic_Dev ~ HooBank</p>
+                <div class="flex items-center">
+                    <a href="https://github.com/michlawbangs" target="_blank">
+                        <img src="./img/github.png" class="w-[1.1rem] h-[1.1rem] mr-3" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./img/linkedin.svg" class="w-[1.1rem] h-[1.1rem] mr-3"  alt="">
+                    </a>
+                    <a href="https://twitter.com/@Mic__Dev" target="_blank">
+                        <img src="./img/twitter.svg" class="w-[1.1rem] h-[1.1rem] mr-3"  alt="">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="./img/instagram.svg" class="w-[1.1rem] h-[1.1rem] mr-3"  alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./img/facebook.svg" class="w-[1.1rem] h-[1.1rem]"  alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./js/app.js"></script>
+</body>
+</html>

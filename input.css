@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: linear-gradient(to right, #070916, #0c101d, #0e1524, #0e1a2b, #0c1f32);
+}
+
+.blue__gradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(223px);
+}
+
+.pink__gradient {
+    background: linear-gradient(90deg, #5476ab 0%, #7b90b4 100%);
+    filter: blur(900px);
+}
+
+.white__gradient {
+    background: rgba(219, 242, 247, 0.989);
+    filter: blur(950px);
+}
+
+.span {
+    margin-left: 1rem;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
