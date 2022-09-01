@@ -11,7 +11,7 @@
     <!-- Header -->
     <header id="header"
         <!-- Navbar -->
-        <nav class="relative w-[88%] mx-auto py-4 md:w-[85%]">
+        <nav class="relative w-[88%] mx-auto py-4 md:w-[85%] animate_nav">
             <!-- Flex container -->
             <div class="flex flex-row items-end justify-between">
                 <!-- Logo -->
@@ -20,10 +20,10 @@
                 </div>
                 <!-- Menu Items -->
                 <div class="hidden space-x-6 md:flex">
-                    <a href="#" class="text-textWhite hover:text-hoverText">Home</a>
-                    <a href="#" class="text-textWhite hover:text-hoverText">About Us</a>
-                    <a href="#" class="text-textWhite hover:text-hoverText">Features</a>
-                    <a href="#" class="text-textWhite hover:text-hoverText">Solution</a>
+                    <a href="#" class="text-textWhite hover:text-hoverText link">Home</a>
+                    <a href="#" class="text-textWhite hover:text-hoverText link">About Us</a>
+                    <a href="#" class="text-textWhite hover:text-hoverText link">Features</a>
+                    <a href="#" class="text-textWhite hover:text-hoverText link">Solution</a>
                 </div>
 
                 <!-- Hamburger Icon -->
@@ -44,7 +44,7 @@
             <!-- Flex Container -->
             <div class="w-[100%] flex flex-col items-center px-0 mx-auto mt-10 space-y-0 md:flex-row md:items-end md:space-y-0 md:pl-[6.5rem]">
                 <!-- Text Left -->
-                <div class="flex flex-col mb-32 space-y-6 md:w-1/2">
+                <div class="flex flex-col mb-32 space-y-6 md:w-1/2 animate_text_left">
                     <div class="flex flex-row items-center justify-center w-[88%] mx-auto bg-gradient-to-r from-bgDiscountFrom to-bgDiscountTo p-[2px] rounded-[10px] md:w-[18rem] md:mx-0">
                         <img src="./img/Discount.svg" alt="discount" class="w-[32px] h-[32px]">
                         <p class="ml-2 uppercase text-slate-400 text-xs font-medium">
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <!-- Image -->
-                <div class="md:w-1/2 relative">
+                <div class="md:w-1/2 relative animate_img">
                     <img src="./img/robot.png" class="relative z-[5]" alt="">
                     <div class="absolute z-[3] w-[50%] h-[65%] top-[5rem] right-[5.2rem] pink__gradient md:right-[9rem]" />
                     <div class="absolute z-[1] w-[50%] h-[50%] rounded-full white__gradient bottom-40" />
@@ -81,7 +81,7 @@
         </section>
     </header>
     <!-- Proof Stats -->
-    <section id="proof" class="mt-16 mb-20">
+    <section id="proof" class="mt-16 mb-20 fade_in">
         <!-- Flex container -->
         <div class="w-[85%] mx-auto flex flex-wrap items-center justify-between text-textWhite md:justify-between">
             <div class="stats mb-6 md:mb-0">
@@ -117,7 +117,7 @@
     </section>
 
     <!-- Featured & Business -->
-    <section id="business">
+    <section id="business" class="fade_in">
         <div class="w-[85%] mx-auto flex flex-col items-start justify-between space-y-6 my-14 mb-[2rem] md:space-y-0 md:flex-row md:mt-[10rem]">
             <!-- Left Side -->
             <div class="space-y-6 md:w-[70%]">
@@ -139,42 +139,14 @@
                 </div>
             </div>
             <!-- Right Side -->
-            <div class="space-y-2">
-                <div class="flex items-center py-4 md:p-4 md:hover:bg-gradient-to-tr from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
-                    <div class="rounded-[50%] w-[5rem] h-[2.4rem] md:w-[3.5rem] md:h-[2.8rem] bg-dimBlue flex items-center justify-center mr-5">
-                        <img src="./img/Star.svg" class="w-[45%] h-[45%] object-contain" alt="">
-                    </div>
-                    <div>
-                        <h2 class='text-textWhite text-base font-semibold w-full'>Rewards</h2>
-                        <p class="text-slate-400 text-[0.9rem]">The best credit cards offer some tantalizing combinations of promotions and prizes</p>
-                    </div>
-                </div>
-                <div class="flex items-center py-4 md:p-4 md:hover:bg-gradient-to-tr from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
-                    <div class="rounded-[50%] w-[5rem] h-[2.4rem] md:w-[3.5rem] md:h-[2.8rem] bg-dimBlue flex items-center justify-center mr-5">
-                        <img src="./img/Shield.svg" class="w-[45%] h-[45%] object-contain" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class='text-textWhite text-base font-semibold w-full'>100% Secured</h2>
-                        <p class="text-slate-400">We take proactive steps make sure your information and transactions are secure</p>
-                    </div>
-                </div>
-                <div class="flex items-center py-4 md:p-4 md:hover:bg-gradient-to-tr from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
-                    <div class="rounded-[50%] w-[5rem] h-[2.4rem] md:w-[3.5rem] md:h-[2.8rem] bg-dimBlue flex items-center justify-center mr-5">
-                        <img src="./img/Send.svg" class="w-[45%] h-[45%] object-contain" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class='text-textWhite text-base font-semibold w-full'>Balance Transfer</h2>
-                        <p class="text-slate-400">A balance transfer credit card can save you a lot of money in interest charges</p>
-                    </div>
-                </div>
+            <div class="space-y-2 business_right_side">
+               <!-- generate business_right_side content dynamically -->
             </div>
         </div>
     </section>
 
     <!-- Billing -->
-    <section id="billing">
+    <section id="billing" class="fade_in">
         <div class="w-[85%] mx-auto my-16 flex items-center justify-between flex-col-reverse space-y-6 md:space-y-0 md:flex-row">
             <div class="space-y-6 md:w-[60%]">
                 <img src="./img/bill.png" class="w-[30rem] h-[100%]-mt-14" alt="">
@@ -193,7 +165,7 @@
     </section>
 
     <!-- Card Deal -->
-    <section id="deal">
+    <section id="deal" class="fade_in">
         <div class="w-[85%] mx-auto flex flex-col md:flex-row items-center space-y-6 my-14">
             <!-- Left Side -->
             <div class="pb-12 space-y-6 md:w-[60%] md:pb-0">
@@ -220,7 +192,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials">
+    <section id="testimonials" class="fade_in">
         <div class="w-[85%] mx-auto my-14 space-y-8">
             <div class="flex flex-col items-start justify-between space-y-6 md:flex-row md:space-y-0">
                 <h2 class='text-textWhite text-3xl font-semibold leading-[40.8px] max-w-md md:text-4xl md:w-[70%] md:leading-[50.8px]'>
@@ -230,52 +202,15 @@
                     Everything you need to accepts card payments and grow your business anywhere on the planet.
                 </p>
             </div>
-            <div class="grid grid-cols-1 gap-y-12 pt-[2rem] md:grid-cols-3 md:gap-16">
-                <div class="md:p-6 md:hover:bg-gradient-to-b from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
-                    <img src="./img/quotes.svg" class="w-[30px] h-[27.6px] object-contain" alt="">
-                    <p class="text-textWhite my-8 text-[0.9rem]">
-                        Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
-                    </p>
-                    <div class="flex">
-                        <img src="./img/people01.png" class="w-[48px] h-[48px] rounded-full" alt="">
-                        <div class="ml-[10px]">
-                            <h2 class="text-textWhite text-[0.9rem]">Herman Jensen</h2>
-                            <p class="text-slate-400 text-[0.8rem]">Founder & Leader</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:p-6 md:hover:bg-gradient-to-b from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
-                    <img src="./img/quotes.svg" class="w-[30px] h-[27.6px] object-contain" alt="">
-                    <p class="text-textWhite my-8 text-[0.9rem] md:mb-[3.2rem]">
-                        Money makes your life easier. If you're lucky to have it, you're lucky
-                    </p>
-                    <div class="flex">
-                        <img src="./img/people02.png" class="w-[48px] h-[48px] rounded-full" alt="">
-                        <div class="ml-[10px]">
-                            <h2 class="text-textWhite text-[0.9rem]">Steve Mark</h2>
-                            <p class="text-slate-400 text-[0.8rem]">Founder & Leader</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:p-6 md:hover:bg-gradient-to-b from-hoverBgFrom to-hoverBgTo md:rounded-[10px]">
-                    <img src="./img/quotes.svg" class="w-[30px] h-[27.6px] object-contain" alt="">
-                    <p class="text-textWhite my-8 text-[0.9rem]">
-                        It is usually people in the money business, finance, and international trade that are really rich.
-                    </p>
-                    <div class="flex items-center">
-                        <img src="./img/people03.png" class="w-[48px] h-[48px] rounded-full" alt="">
-                        <div class="ml-[10px]">
-                            <h2 class="text-textWhite text-[0.9rem]">Kenn Gallagher</h2>
-                            <p class="text-slate-400 text-[0.8rem]">Founder & Leader</p>
-                        </div>
-                    </div>
-                </div>
+            <!-- Testimonials -->
+            <div class="grid grid-cols-1 gap-y-12 pt-[2rem] md:grid-cols-3 md:gap-16 testimonials_container">
+                <!-- generate testimonial content dynamically -->
             </div>
         </div>
     </section>
 
     <!-- Clients -->
-    <section id="clients">
+    <section id="clients" class="fade_in">
         <div class="w-[85%] mx-auto my-16 grid grid-cols-2 gap-8 items-center md:grid-cols-4 md:gap-16">
             <div class="w-[10rem] md:w-[12rem]">
                 <img src="./img/airbnb.png" class="w-[8rem] h-[5rem] object-contain md:w-[11rem]" alt="">
@@ -293,7 +228,7 @@
     </section>
 
     <!-- Services -->
-    <section id="services">
+    <section id="services" class="fade_in">
         <div class="w-[85%] mx-auto my-14 p-6 bg-gradient-to-bl from-hoverBgFrom to-hoverBgTo rounded-[20px] md:p-12">
             <div class="flex flex-col items-start justify-between space-y-6 md:flex-row md:items-center md:space-y-0">
                 <div class="space-y-6">

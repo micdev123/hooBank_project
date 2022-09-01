@@ -6,6 +6,74 @@ body {
     background-image: linear-gradient(to right, #070916, #0c101d, #0e1524, #0e1a2b, #0c1f32);
 }
 
+.link {
+    font-size: 0.9rem;
+}
+
+.animate_nav {
+    animation: nav 1s linear 0.5s;
+}
+
+.animate_text_left {
+    animation: left_side 1s ease 0.8s;
+}
+
+.animate_img {
+    animation: right_side 1s ease 0.8s;
+}
+
+@keyframes nav {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes left_side {
+    0% {
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes right_side {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .blue__gradient {
     background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
     filter: blur(223px);
@@ -29,5 +97,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+.fade_in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade_in.appear {
+    opacity: 1;
 }
 
