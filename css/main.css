@@ -650,6 +650,11 @@ video {
   margin-bottom: 4rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -698,6 +703,10 @@ video {
   margin-right: 0.75rem;
 }
 
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
 .flex {
   display: flex;
 }
@@ -744,6 +753,22 @@ video {
 
 .h-\[1\.1rem\] {
   height: 1.1rem;
+}
+
+.h-\[27\.6px\] {
+  height: 27.6px;
+}
+
+.h-\[48px\] {
+  height: 48px;
+}
+
+.h-\[2\.4rem\] {
+  height: 2.4rem;
+}
+
+.h-\[45\%\] {
+  height: 45%;
 }
 
 .w-\[88\%\] {
@@ -804,6 +829,22 @@ video {
 
 .w-\[1\.1rem\] {
   width: 1.1rem;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[48px\] {
+  width: 48px;
+}
+
+.w-\[5rem\] {
+  width: 5rem;
+}
+
+.w-\[45\%\] {
+  width: 45%;
 }
 
 .max-w-md {
@@ -930,6 +971,10 @@ video {
   border-radius: 20px;
 }
 
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
 .border-t-\[2px\] {
   border-top-width: 2px;
 }
@@ -951,6 +996,11 @@ video {
 .bg-footer {
   --tw-bg-opacity: 1;
   background-color: rgb(6 8 13 / var(--tw-bg-opacity));
+}
+
+.bg-dimBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 36 44 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -1096,6 +1146,15 @@ video {
 
 .text-\[1rem\] {
   font-size: 1rem;
+}
+
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-medium {
@@ -1344,6 +1403,10 @@ body {
     margin-top: 10rem;
   }
 
+  .md\:mb-\[3\.2rem\] {
+    margin-bottom: 3.2rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1358,6 +1421,10 @@ body {
 
   .md\:h-\[2rem\] {
     height: 2rem;
+  }
+
+  .md\:h-\[2\.8rem\] {
+    height: 2.8rem;
   }
 
   .md\:w-\[85\%\] {
@@ -1390,6 +1457,10 @@ body {
 
   .md\:w-\[10rem\] {
     width: 10rem;
+  }
+
+  .md\:w-\[3\.5rem\] {
+    width: 3.5rem;
   }
 
   .md\:max-w-\[45\%\] {
@@ -1442,8 +1513,20 @@ body {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .md\:rounded-\[10px\] {
+    border-radius: 10px;
+  }
+
   .md\:p-12 {
     padding: 3rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
   }
 
   .md\:pl-\[6\.5rem\] {
@@ -1470,6 +1553,14 @@ body {
 
   .md\:leading-\[50\.8px\] {
     line-height: 50.8px;
+  }
+
+  .md\:hover\:bg-gradient-to-b:hover {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+
+  .md\:hover\:bg-gradient-to-tr:hover {
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops));
   }
 }
 
